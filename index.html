@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GhostSpell — a quiet ghostwriter for everyday writing</title>
+  <meta name="description" content="GhostSpell is a fast, quiet writing helper for dyslexia, non-native English speakers, and anyone who wants clean AI writing help without ads, subscriptions, or interruptions." />
+  <meta property="og:title" content="GhostSpell" />
+  <meta property="og:description" content="A fast little ghost for cleaner writing. No ads. No subscription. No interruptions." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/assets/ghostspell-ghost.png" />
+  <meta name="theme-color" content="#09090f" />
+  <link rel="icon" type="image/png" href="/assets/ghostspell-ghost.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-glow bg-glow-a"></div>
+  <div class="bg-glow bg-glow-b"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="GhostSpell home">
+      <img src="/assets/ghostspell-ghost.png" alt="GhostSpell ghost" />
+      <span>GhostSpell</span>
+    </a>
+    <nav>
+      <a href="#download">Download</a>
+      <a href="#install">Install</a>
+      <a href="#advantages">Why GhostSpell</a>
+      <a href="#providers">AI support</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero container hero-simple">
+      <div class="hero-copy">
+        <p class="eyebrow">Quiet AI writing help</p>
+        <h1>A nice little ghost<br><span>that helps you write.</span></h1>
+        <p class="lede lede-strong">
+          Fast, clean writing help for people with dyslexia, non-native English speakers, and anyone who wants support without getting interrupted.
+        </p>
+        <p class="lede">
+          GhostSpell stays out of the way while you write. When you want help, press <strong>Ctrl+G</strong> on Windows/Linux or <strong>Cmd+G</strong> on macOS to correct,
+          rewrite, polish, or translate text anywhere you type.
+        </p>
+        <div class="cta-row">
+          <a class="button button-primary" href="#download">Download GhostSpell</a>
+          <a class="button button-secondary" href="#install">Install in minutes</a>
+        </div>
+        <p class="hotkey-note">No ads. No subscription. No popups. No interruption spam.</p>
+      </div>
+      <div class="hero-art hero-art-simple">
+        <img class="ghost ghost-large" src="/assets/ghostspell-ghost.png" alt="Little purple GhostSpell ghost mascot" />
+      </div>
+    </section>
+
+    <section class="demo container">
+      <div class="demo-card">
+        <div class="demo-topbar">
+          <span class="demo-dot"></span>
+          <span class="demo-dot"></span>
+          <span class="demo-dot"></span>
+          <span class="demo-label">Quick post</span>
+        </div>
+        <div class="demo-screen">
+          <div class="demo-input-shell">
+            <div class="demo-input-label">Post / message</div>
+            <div class="demo-input-box">
+              <div class="demo-stage demo-stage-typed">Just shippd GhostSpell tonite — its so much beter for writting fast<span class="demo-caret"></span></div>
+              <div class="demo-stage demo-stage-selected">Just shippd GhostSpell tonite — its so much beter for writting fast</div>
+              <div class="demo-stage demo-stage-good">Just shipped GhostSpell tonight — it’s so much better for writing fast<span class="demo-caret"></span></div>
+            </div>
+          </div>
+          <div class="demo-action-row">
+            <div class="demo-keys">
+              <span class="keycap">Ctrl</span>
+              <span class="key-plus">+</span>
+              <span class="keycap keycap-g">G</span>
+            </div>
+            <div class="demo-ghost-chip">
+              <img src="/assets/ghostspell-ghost.png" alt="GhostSpell ghost" />
+              <span>Correct</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="download" class="download container">
+      <div class="section-heading narrow install-heading-block">
+        <p class="eyebrow">Get it now</p>
+        <h2>Download GhostSpell</h2>
+        <p class="section-copy">Pick your platform and get the app directly.</p>
+      </div>
+
+      <div class="direct-links direct-links-large">
+        <a class="install-link install-link-strong" href="https://github.com/chrixbedardcad/GhostType/releases/latest/download/GhostType-darwin-arm64.dmg" target="_blank" rel="noreferrer">macOS Apple Silicon</a>
+        <a class="install-link install-link-strong" href="https://github.com/chrixbedardcad/GhostType/releases/latest/download/GhostType-darwin-amd64.dmg" target="_blank" rel="noreferrer">macOS Intel</a>
+        <a class="install-link install-link-strong" href="https://github.com/chrixbedardcad/GhostType/releases/latest/download/ghosttype-windows-amd64.exe" target="_blank" rel="noreferrer">Windows</a>
+        <a class="install-link install-link-strong" href="https://github.com/chrixbedardcad/GhostType/releases/latest/download/ghosttype-linux-amd64" target="_blank" rel="noreferrer">Linux</a>
+      </div>
+    </section>
+
+    <section id="install" class="install install-primary container">
+      <div class="section-heading narrow install-heading-block">
+        <p class="eyebrow">Clean install</p>
+        <h2>Install in one line</h2>
+        <p class="install-subhead">Simple. Sharp. Done.</p>
+        <p class="section-copy">Copy the command for your platform and install GhostSpell in seconds.</p>
+      </div>
+
+      <div class="command-grid">
+        <article class="command-card">
+          <div class="command-head">
+            <span class="platform-badge">macOS / Linux</span>
+            <button class="copy-btn" type="button" data-copy="curl -fsSL https://raw.githubusercontent.com/chrixbedardcad/GhostType/main/scripts/install.sh | bash">Copy</button>
+          </div>
+          <pre><code>curl -fsSL https://raw.githubusercontent.com/chrixbedardcad/GhostType/main/scripts/install.sh | bash</code></pre>
+        </article>
+
+        <article class="command-card">
+          <div class="command-head">
+            <span class="platform-badge">Windows</span>
+            <button class="copy-btn" type="button" data-copy="powershell -c &quot;irm https://raw.githubusercontent.com/chrixbedardcad/GhostType/main/scripts/install.ps1 | iex&quot;">Copy</button>
+          </div>
+          <pre><code>powershell -c "irm https://raw.githubusercontent.com/chrixbedardcad/GhostType/main/scripts/install.ps1 | iex"</code></pre>
+        </article>
+      </div>
+    </section>
+
+    <section id="advantages" class="advantages container">
+      <div class="section-heading narrow">
+        <p class="eyebrow">Why GhostSpell</p>
+        <h2>What makes this ghost useful?</h2>
+      </div>
+      <div class="advantage-grid">
+        <article class="advantage-card">
+          <h3>Always there, like a ghost</h3>
+          <p>Ready when you need help, invisible when you don’t.</p>
+        </article>
+        <article class="advantage-card">
+          <h3>Light on your PC</h3>
+          <p>It stays small and quiet instead of eating your system resources.</p>
+        </article>
+        <article class="advantage-card">
+          <h3>No ads. No subscription.</h3>
+          <p>Totally free and open source. No paywall nonsense.</p>
+        </article>
+        <article class="advantage-card">
+          <h3>No malware. No shady catch.</h3>
+          <p>Just a clean tool that exists to help people write better.</p>
+        </article>
+        <article class="advantage-card">
+          <h3>Fast and non-interruptive</h3>
+          <p>It helps without breaking your flow or nagging you every few seconds.</p>
+        </article>
+        <article class="advantage-card">
+          <h3>Configurable</h3>
+          <p>Change the prompt, create your own style, adjust tone, or translate to any language.</p>
+        </article>
+        <article class="advantage-card">
+          <h3>Works with many AI providers</h3>
+          <p>Connect it to the AI you want. It also works fine with free accounts.</p>
+        </article>
+        <article class="advantage-card">
+          <h3>Made for real writing struggles</h3>
+          <p>Useful for dyslexia, spelling trouble, writing fatigue, and non-native English writing.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="focus-note container catch-note">
+      <p class="catch-line"><strong>What’s the catch?</strong> Nothing.</p>
+      <p>
+        GhostSpell exists because writing is hard for a lot of people, and help should not be locked behind subscriptions, ads, or bloated software.
+      </p>
+      <p>
+        It is built to be quiet, practical, and kind — especially for people who struggle with spelling, dyslexia, or writing in English as a second language.
+      </p>
+    </section>
+
+    <section id="providers" class="providers container">
+      <div class="section-heading narrow">
+        <p class="eyebrow">Works with your AI</p>
+        <h2>OpenAI, Anthropic, DeepSeek, Gemini, and Ollama.</h2>
+      </div>
+      <div class="provider-row logos">
+        <div class="provider-pill"><img src="/assets/providers/openai.svg" alt="OpenAI logo" /><span>OpenAI</span></div>
+        <div class="provider-pill"><img src="/assets/providers/anthropic.svg" alt="Anthropic logo" /><span>Anthropic</span></div>
+        <div class="provider-pill"><img src="/assets/providers/deepseek.svg" alt="DeepSeek logo" /><span>DeepSeek</span></div>
+        <div class="provider-pill"><img src="/assets/providers/gemini.svg" alt="Gemini logo" /><span>Gemini</span></div>
+        <div class="provider-pill"><img class="logo-white" src="/assets/providers/ollama.svg" alt="Ollama logo" /><span>Ollama</span></div>
+      </div>
+      <p class="provider-copy">
+        Use the AI stack you already like. GhostSpell works with modern cloud providers and local models.
+      </p>
+      <p class="provider-copy custom-note">
+        You can customize the prompt so GhostSpell matches <strong>your own needs</strong>, <strong>your language</strong>, and <strong>your writing style</strong>.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <p>GhostSpell — a quiet little ghost for cleaner writing.</p>
+    <div class="footer-links">
+      <a href="https://github.com/chrixbedardcad/GhostType" target="_blank" rel="noreferrer">App GitHub</a>
+      <a href="https://github.com/chrixbedardcad/GhostType/releases/latest" target="_blank" rel="noreferrer">Latest release</a>
+      <a href="https://github.com/chrixbedardcad/GhostSpellWebSite" target="_blank" rel="noreferrer">Website repo</a>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelectorAll('.copy-btn').forEach((btn) => {
+      btn.addEventListener('click', async () => {
+        try {
+          await navigator.clipboard.writeText(btn.dataset.copy || '');
+          const old = btn.textContent;
+          btn.textContent = 'Copied';
+          setTimeout(() => (btn.textContent = old), 1400);
+        } catch {
+          btn.textContent = 'Copy failed';
+          setTimeout(() => (btn.textContent = 'Copy'), 1400);
+        }
+      });
+    });
+  </script>
+</body>
+</html>
