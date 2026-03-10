@@ -284,6 +284,37 @@ code { font-family: "SFMono-Regular", ui-monospace, Menlo, Consolas, monospace; 
   0%, 49% { opacity: 1; }
   50%, 100% { opacity: 0; }
 }
+@keyframes mobileTypedStage {
+  0%, 38% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  42%, 100% {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+}
+@keyframes mobileSelectedStage {
+  0%, 40% {
+    opacity: 0;
+  }
+  44%, 56% {
+    opacity: 1;
+  }
+  60%, 100% {
+    opacity: 0;
+  }
+}
+@keyframes mobileGoodStage {
+  0%, 58% {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  64%, 100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 @media (max-width: 960px) {
   .hero, .command-grid, .advantage-grid { grid-template-columns: 1fr; }
   .demo-screen { min-height: 250px; }
@@ -300,23 +331,28 @@ code { font-family: "SFMono-Regular", ui-monospace, Menlo, Consolas, monospace; 
 @media (max-width: 640px) {
   .demo-screen { min-height: auto; }
   .demo-input-box {
-    min-height: auto;
+    min-height: 112px;
     padding: 14px;
+    overflow: hidden;
   }
   .demo-stage {
-    position: static;
-    max-width: 100%;
+    left: 14px;
+    top: 14px;
+    right: 14px;
+    max-width: none;
     white-space: normal;
     overflow-wrap: anywhere;
+    line-height: 1.5;
   }
-  .demo-stage-typed,
+  .demo-stage-typed {
+    width: auto;
+    animation: mobileTypedStage 12s infinite;
+  }
   .demo-stage-selected {
-    display: none;
+    animation: mobileSelectedStage 12s infinite;
   }
   .demo-stage-good {
-    display: block;
-    opacity: 1;
-    animation: none;
+    animation: mobileGoodStage 12s infinite;
   }
   .demo-caret {
     display: none;
