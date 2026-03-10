@@ -296,3 +296,32 @@ code { font-family: "SFMono-Regular", ui-monospace, Menlo, Consolas, monospace; 
   .site-footer { flex-direction: column; align-items: flex-start; }
   .demo-action-row { flex-direction: column; align-items: flex-start; }
 }
+
+@media (max-width: 640px) {
+  .demo-screen { min-height: auto; }
+  .demo-input-box {
+    min-height: auto;
+    padding: 14px;
+  }
+  .demo-stage {
+    position: static;
+    max-width: 100%;
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+  .demo-stage-typed,
+  .demo-stage-selected {
+    display: none;
+  }
+  .demo-stage-good {
+    display: block;
+    opacity: 1;
+    animation: none;
+  }
+  .demo-caret {
+    display: none;
+  }
+  .demo-keys {
+    flex-wrap: wrap;
+  }
+}
