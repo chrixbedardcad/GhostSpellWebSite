@@ -216,7 +216,21 @@ code { font-family: "SFMono-Regular", ui-monospace, Menlo, Consolas, monospace; 
 .focus-note p { margin: 0 0 10px; }
 .focus-note p:last-child { margin-bottom: 0; }
 .catch-note { margin-top: 8px; }
+.catch-icon {
+  width: 52px;
+  height: 52px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, rgba(236,107,255,0.18), rgba(139,92,246,0.16));
+  border: 1px solid rgba(236,107,255,0.22);
+  box-shadow: 0 10px 30px rgba(111, 76, 255, 0.18);
+  font-size: 1.5rem;
+}
 .catch-line { font-size: 1.18rem; color: #ebe6ff; }
+.open-source { padding: 34px 0 10px; }
 .providers-heading {
   font-size: clamp(2.6rem, 4.6vw, 4.4rem) !important;
   max-width: 14ch;
