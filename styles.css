@@ -191,18 +191,31 @@ code { font-family: "SFMono-Regular", ui-monospace, Menlo, Consolas, monospace; 
   box-shadow: var(--shadow);
 }
 .advantage-icon {
-  width: 44px;
-  height: 44px;
+  width: 74px;
+  height: 74px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 12px;
-  border-radius: 14px;
-  background: linear-gradient(135deg, rgba(139,92,246,0.22), rgba(236,107,255,0.14));
-  border: 1px solid rgba(196,181,253,0.22);
-  box-shadow: 0 8px 28px rgba(111, 76, 255, 0.18);
-  font-size: 1.25rem;
+  margin-bottom: 14px;
+  border-radius: 22px;
+  background: linear-gradient(135deg, rgba(139,92,246,0.24), rgba(236,107,255,0.16));
+  border: 1px solid rgba(196,181,253,0.24);
+  box-shadow: 0 12px 34px rgba(111, 76, 255, 0.22);
 }
+.advantage-icon img {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  filter: drop-shadow(0 8px 18px rgba(139,92,246,0.32));
+}
+.advantage-icon-ghost { background: linear-gradient(135deg, rgba(139,92,246,0.28), rgba(236,107,255,0.16)); }
+.advantage-icon-feather { background: linear-gradient(135deg, rgba(124,58,237,0.26), rgba(167,139,250,0.16)); }
+.advantage-icon-heart { background: linear-gradient(135deg, rgba(147,51,234,0.28), rgba(217,70,239,0.16)); }
+.advantage-icon-shield { background: linear-gradient(135deg, rgba(109,40,217,0.28), rgba(192,132,252,0.14)); }
+.advantage-icon-flash { background: linear-gradient(135deg, rgba(126,34,206,0.3), rgba(236,72,153,0.14)); }
+.advantage-icon-spark { background: linear-gradient(135deg, rgba(139,92,246,0.24), rgba(244,114,182,0.18)); }
+.advantage-icon-link { background: linear-gradient(135deg, rgba(91,33,182,0.3), rgba(168,85,247,0.16)); }
+.advantage-icon-note { background: linear-gradient(135deg, rgba(88,28,135,0.3), rgba(192,132,252,0.18)); }
 .advantage-card h3 {
   margin: 0 0 8px;
   font-size: 1.15rem;
