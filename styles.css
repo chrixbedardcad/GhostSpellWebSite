@@ -264,13 +264,14 @@ code { font-family: "SFMono-Regular", ui-monospace, Menlo, Consolas, monospace; 
 .provider-pill { display: inline-flex; align-items: center; gap: 12px; border-radius: 999px; padding: 12px 16px; color: #ebeafb; }
 .provider-pill img { width: 22px; height: 22px; object-fit: contain; }
 .provider-pill img.logo-white { filter: brightness(0) invert(1); }
-.provider-pill-ghost {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+.provider-pill-icon {
   width: 22px;
   height: 22px;
-  font-size: 1rem;
+  object-fit: contain;
+  flex: 0 0 22px;
+}
+.provider-pill-icon-ghost {
+  transform: scale(1.08);
 }
 .provider-pill-built-in { background: linear-gradient(135deg, rgba(139,92,246,0.22), rgba(236,107,255,0.14)); }
 .connection-grid {
