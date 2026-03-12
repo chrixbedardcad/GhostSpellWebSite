@@ -249,20 +249,26 @@
         <h2 class="providers-heading">Start local with Ollama. Add cloud providers if you want more.</h2>
       </div>
       <div class="provider-row logos">
-        <div class="provider-pill provider-pill-built-in"><span>👻</span><span>Ollama / local</span></div>
+        <div class="provider-pill provider-pill-built-in"><span class="provider-pill-ghost">👻</span><span>Local-AI (default)</span></div>
+        <div class="provider-pill provider-pill-built-in"><span class="provider-pill-ghost">👻</span><span>Ollama / local</span></div>
         <div class="provider-pill"><img src="/assets/providers/openai.svg" alt="OpenAI logo" /><span>OpenAI</span></div>
         <div class="provider-pill"><img src="/assets/providers/anthropic.svg" alt="Anthropic logo" /><span>Anthropic</span></div>
         <div class="provider-pill"><img src="/assets/providers/deepseek.svg" alt="DeepSeek logo" /><span>DeepSeek</span></div>
         <div class="provider-pill"><img src="/assets/providers/gemini.svg" alt="Gemini logo" /><span>Gemini</span></div>
       </div>
       <p class="provider-copy">
-        GhostSpell should feel easy first. Start with local Ollama if you want a free private setup, then connect a cloud provider later if you want more power or a different model.
+        GhostSpell should feel easy first. You have four clear options: the built-in Local-AI default, Ollama on your own machine, account login for supported cloud providers, or raw API keys for full control.
       </p>
-      <div class="connection-grid">
+      <div class="connection-grid connection-grid-four">
         <article class="connection-card">
-          <div class="connection-icon">🦙</div>
-          <h3>Default Ollama</h3>
-          <p>The easiest default. Run GhostSpell with a local Ollama install for a free, private, simple setup that works on your own machine without needing a paid account.</p>
+          <div class="connection-icon">👻</div>
+          <h3>Local-AI (default)</h3>
+          <p>GhostSpell includes a default AI setup out of the box. It handles around 70–80% of common writing fixes for free, with no extra setup, and is the easiest place to start.</p>
+        </article>
+        <article class="connection-card">
+          <div class="connection-icon">👻</div>
+          <h3>Ollama (local)</h3>
+          <p>Want a more private local setup on your own machine? Use Ollama. It stays local and free, while giving you more flexibility over which model you run.</p>
         </article>
         <article class="connection-card">
           <div class="connection-icon">🔐</div>
@@ -272,11 +278,11 @@
         <article class="connection-card">
           <div class="connection-icon">🗝️</div>
           <h3>API keys</h3>
-          <p>Want more control? Use API keys for advanced setups, custom providers, stronger models, or your own preferred workflow.</p>
+          <p>Use API keys for stronger models, faster responses, or more advanced setups. Paid cloud models usually give better results and speed when you want more than the free default.</p>
         </article>
       </div>
       <p class="provider-copy custom-note">
-        So GhostSpell can start simple and stay flexible: local Ollama when you want privacy and no API key, plus login-based and API-based connections when you want something more advanced.
+        Start with the built-in Local-AI if you just want help fast and free. Move to Ollama for local control, or use cloud providers when you want better quality, more speed, or more model choice.
       </p>
     </section>
 
