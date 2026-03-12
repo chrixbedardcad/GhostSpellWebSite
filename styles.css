@@ -308,9 +308,45 @@ code { font-family: "SFMono-Regular", ui-monospace, Menlo, Consolas, monospace; 
   width: 28px;
   height: 28px;
   object-fit: contain;
+  position: relative;
+  z-index: 2;
 }
 .connection-icon-img-ghost {
   transform: scale(1.08);
+}
+.connection-icon-ai {
+  position: relative;
+  overflow: hidden;
+}
+.connection-icon-ai::before {
+  content: "";
+  position: absolute;
+  inset: 9px;
+  border-radius: 14px;
+  border: 1px solid rgba(196,181,253,0.32);
+  box-shadow: inset 0 0 0 1px rgba(139,92,246,0.14);
+}
+.connection-icon-ai::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 18% 22%, rgba(196,181,253,0.95) 0 1.5px, transparent 2px),
+    radial-gradient(circle at 82% 28%, rgba(196,181,253,0.9) 0 1.5px, transparent 2px),
+    radial-gradient(circle at 24% 80%, rgba(196,181,253,0.8) 0 1.5px, transparent 2px),
+    radial-gradient(circle at 78% 76%, rgba(196,181,253,0.85) 0 1.5px, transparent 2px),
+    linear-gradient(rgba(196,181,253,0.18), rgba(196,181,253,0.18)) 20% 24% / 12px 1px no-repeat,
+    linear-gradient(rgba(196,181,253,0.18), rgba(196,181,253,0.18)) 68% 28% / 10px 1px no-repeat,
+    linear-gradient(rgba(196,181,253,0.16), rgba(196,181,253,0.16)) 24% 72% / 14px 1px no-repeat,
+    linear-gradient(90deg, rgba(196,181,253,0.14), rgba(196,181,253,0.14)) 18% 28% / 1px 10px no-repeat,
+    linear-gradient(90deg, rgba(196,181,253,0.14), rgba(196,181,253,0.14)) 80% 34% / 1px 12px no-repeat;
+  opacity: 0.95;
+  pointer-events: none;
+}
+.connection-icon-ai-ghost {
+  background:
+    radial-gradient(circle at 50% 50%, rgba(236,107,255,0.18), transparent 58%),
+    linear-gradient(135deg, rgba(139,92,246,0.24), rgba(236,107,255,0.16));
 }
 .connection-card h3 {
   margin: 0 0 8px;
