@@ -304,6 +304,17 @@ code { font-family: "SFMono-Regular", ui-monospace, Menlo, Consolas, monospace; 
   box-shadow: 0 10px 30px rgba(111, 76, 255, 0.2);
   font-size: 1.55rem;
 }
+.connection-icon-img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+.connection-icon-img-ghost {
+  transform: scale(1.08);
+}
+.connection-icon-img-white {
+  filter: brightness(0) invert(1);
+}
 .connection-card h3 {
   margin: 0 0 8px;
   font-size: 1.15rem;
