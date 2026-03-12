@@ -273,57 +273,11 @@ code { font-family: "SFMono-Regular", ui-monospace, Menlo, Consolas, monospace; 
 .provider-pill-icon-ghost {
   transform: scale(1.08);
 }
-.ghost-ai-mark {
-  position: relative;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
-.ghost-ai-mark-pill {
+.provider-pill-icon-ghost-ai {
   width: 24px;
   height: 24px;
   flex: 0 0 24px;
-}
-.ghost-ai-mark-card {
-  width: 30px;
-  height: 30px;
-}
-.ghost-ai-frame {
-  position: relative;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  border-radius: 8px;
-  background: linear-gradient(135deg, rgba(35,24,53,0.96), rgba(63,39,99,0.9));
-  border: 1px solid rgba(196,181,253,0.28);
-  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.04), 0 6px 16px rgba(76,29,149,0.22);
-  overflow: hidden;
-}
-.ghost-ai-frame::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background:
-    radial-gradient(circle at 18% 24%, rgba(115,255,247,0.95) 0 1.4px, transparent 2px),
-    radial-gradient(circle at 82% 24%, rgba(115,255,247,0.95) 0 1.4px, transparent 2px),
-    radial-gradient(circle at 18% 78%, rgba(115,255,247,0.9) 0 1.4px, transparent 2px),
-    radial-gradient(circle at 82% 78%, rgba(115,255,247,0.9) 0 1.4px, transparent 2px),
-    linear-gradient(rgba(115,255,247,0.35), rgba(115,255,247,0.35)) 18% 24% / 18% 1px no-repeat,
-    linear-gradient(rgba(115,255,247,0.35), rgba(115,255,247,0.35)) 64% 24% / 18% 1px no-repeat,
-    linear-gradient(rgba(115,255,247,0.28), rgba(115,255,247,0.28)) 18% 76% / 18% 1px no-repeat,
-    linear-gradient(rgba(115,255,247,0.28), rgba(115,255,247,0.28)) 64% 76% / 18% 1px no-repeat,
-    linear-gradient(90deg, rgba(115,255,247,0.28), rgba(115,255,247,0.28)) 24% 24% / 1px 20% no-repeat,
-    linear-gradient(90deg, rgba(115,255,247,0.28), rgba(115,255,247,0.28)) 76% 24% / 1px 20% no-repeat;
-  opacity: 0.95;
-}
-.ghost-ai-frame::after {
-  content: "";
-  position: absolute;
-  inset: 4px;
-  border-radius: 6px;
-  border: 1px solid rgba(196,181,253,0.14);
+  object-fit: contain;
 }
 .provider-pill-built-in { background: linear-gradient(135deg, rgba(139,92,246,0.22), rgba(236,107,255,0.14)); }
 .connection-grid {
@@ -367,8 +321,11 @@ code { font-family: "SFMono-Regular", ui-monospace, Menlo, Consolas, monospace; 
   transform: scale(1.08);
   filter: drop-shadow(0 0 8px rgba(168,85,247,0.35));
 }
-.ghost-ai-mark-card .ghost-ai-frame {
-  border-radius: 10px;
+.connection-icon-img-ghost-ai {
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
+  filter: drop-shadow(0 0 10px rgba(168,85,247,0.28));
 }
 .connection-icon-ai {
   position: relative;
