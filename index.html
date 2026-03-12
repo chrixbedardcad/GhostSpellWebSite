@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>GhostSpell — AI writing help for humans and AI. Better text, better prompts, especially for dyslexic and non-native English writers.</title>
-  <meta name="description" content="GhostSpell helps you write for humans and AI: better text, better prompts, helpful for dyslexic and non-native English writers, with support for local models, API keys, OAuth, and account login." />
-  <meta property="og:title" content="GhostSpell" />
-  <meta property="og:description" content="A fast little ghost for cleaner writing. No ads. No subscription. No interruptions." />
+  <title>GhostSpell — Free AI text corrector for non-native English speakers, dyslexic writers, and better prompts</title>
+  <meta name="description" content="GhostSpell is a free AI text corrector for non-native English speakers, dyslexic writers, and anyone who wants better text, better prompts, and cleaner writing for humans or AI." />
+  <meta property="og:title" content="GhostSpell — better text, better prompts" />
+  <meta property="og:description" content="Free writing help for non-native English speakers, dyslexic writers, and anyone who wants cleaner text before sending it to people or AI." />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="/assets/ghostspell-ghost.png" />
   <meta name="theme-color" content="#09090f" />
@@ -25,6 +25,7 @@
     </a>
     <nav>
       <a href="#install">Install</a>
+      <a href="#how-it-works">How it works</a>
       <a href="#advantages">Why GhostSpell</a>
       <a href="#providers">AI support</a>
     </nav>
@@ -36,14 +37,19 @@
         <p class="eyebrow">Quiet AI writing help</p>
         <h1>A nice little ghost<br><span>that helps you write.</span></h1>
         <p class="lede lede-strong">
-          Fast, clean writing help for people with dyslexia, non-native English speakers, and anyone who wants support without getting interrupted.
+          Better text for humans. Better prompts for AI. Especially useful for dyslexic writers, non-native English speakers, and anyone who wants cleaner writing without friction.
         </p>
         <p class="lede">
-          GhostSpell stays out of the way while you write. When you want help, press <strong>Ctrl+G</strong> on Windows/Linux or <strong>Cmd+G</strong> on macOS to correct,
-          rewrite, polish, or translate text anywhere you type.
+          Install it. Press <strong>Ctrl+G</strong> on Windows/Linux or <strong>Cmd+G</strong> on macOS. GhostSpell can correct, rewrite, polish, translate, and clean up rough prompts before they go to an AI.
         </p>
         <div class="cta-row">
           <a class="button button-primary" href="#install">Install GhostSpell</a>
+          <a class="button button-secondary" href="https://github.com/chrixbedardcad/GhostSpell" target="_blank" rel="noreferrer">View on GitHub</a>
+        </div>
+        <div class="social-proof-row">
+          <a class="github-badge" href="https://github.com/chrixbedardcad/GhostSpell" target="_blank" rel="noreferrer" aria-label="View GhostSpell on GitHub">
+            <img src="https://img.shields.io/github/stars/chrixbedardcad/GhostSpell?style=for-the-badge&label=GitHub%20Stars&color=8b5cf6" alt="GitHub stars badge" />
+          </a>
         </div>
         <p class="hotkey-note">No ads. No subscription. No popups. No interruption spam.</p>
       </div>
@@ -84,29 +90,84 @@
       </div>
     </section>
 
+    <section id="how-it-works" class="advantages container how-it-works">
+      <div class="section-heading narrow">
+        <p class="eyebrow">Simple flow</p>
+        <h2>How it works</h2>
+      </div>
+      <div class="advantage-grid how-grid">
+        <article class="advantage-card">
+          <div class="advantage-icon">🖱️</div>
+          <h3>Select your text</h3>
+          <p>Highlight the messy sentence, rough message, or half-baked AI prompt you want to improve.</p>
+        </article>
+        <article class="advantage-card">
+          <div class="advantage-icon">⌨️</div>
+          <h3>Press Ctrl+G</h3>
+          <p>GhostSpell stays out of the way until you ask for help, then fixes the text right where you are writing.</p>
+        </article>
+        <article class="advantage-card">
+          <div class="advantage-icon">✨</div>
+          <h3>Send cleaner words</h3>
+          <p>Use the improved text for email, Slack, school, work, social posts, or better prompts for your AI of choice.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="demo container demo-prompt">
+      <div class="demo-card">
+        <div class="demo-topbar">
+          <span class="demo-dot"></span>
+          <span class="demo-dot"></span>
+          <span class="demo-dot"></span>
+          <span class="demo-label">AI prompt cleanup</span>
+        </div>
+        <div class="demo-screen demo-screen-stack">
+          <div class="demo-prompt-compare">
+            <div class="prompt-block">
+              <div class="prompt-label">Rough prompt</div>
+              <p>write a polite mail to my boss say i finish the task but im not sure if english is good and ask if he want change</p>
+            </div>
+            <div class="prompt-arrow">Ctrl+G →</div>
+            <div class="prompt-block prompt-block-good">
+              <div class="prompt-label">Cleaner prompt</div>
+              <p>Write a polite email to my manager saying I finished the task, that I would appreciate feedback, and asking whether any changes are needed.</p>
+            </div>
+          </div>
+          <p class="demo-caption">Better prompt in, better result out. GhostSpell helps your message land better whether the next reader is a person or a machine.</p>
+        </div>
+      </div>
+    </section>
+
     <section id="install" class="install install-primary container">
       <div class="section-heading narrow install-heading-block">
         <p class="eyebrow">Clean install</p>
-        <h2>Install in one line</h2>
+        <h2>Install in one line — or just download it</h2>
         <p class="install-subhead">Simple. Sharp. Done.</p>
-        <p class="section-copy">Open Terminal on macOS or Linux, or Command Prompt on Windows, then paste the command for your platform to install GhostSpell in seconds.</p>
+        <p class="section-copy">If you like the terminal, paste the command and go. If you do not, grab the latest release from GitHub and use the installer or packaged build for your platform.</p>
+      </div>
+      <div class="download-row">
+        <a class="install-link" href="https://github.com/chrixbedardcad/GhostSpell/releases/latest" target="_blank" rel="noreferrer">⬇️ Download latest release</a>
+        <a class="install-link" href="https://github.com/chrixbedardcad/GhostSpell/releases/latest" target="_blank" rel="noreferrer">🪟 Windows build</a>
+        <a class="install-link" href="https://github.com/chrixbedardcad/GhostSpell/releases/latest" target="_blank" rel="noreferrer">🍎 macOS build</a>
+        <a class="install-link" href="https://github.com/chrixbedardcad/GhostSpell/releases/latest" target="_blank" rel="noreferrer">🐧 Linux build</a>
       </div>
 
       <div class="command-grid">
         <article class="command-card">
           <div class="command-head">
             <span class="platform-badge">macOS / Linux</span>
-            <button class="copy-btn" type="button" data-copy="curl -fsSL https://raw.githubusercontent.com/chrixbedardcad/GhostType/main/scripts/install.sh | bash">Copy</button>
+            <button class="copy-btn" type="button" data-copy="curl -fsSL https://raw.githubusercontent.com/chrixbedardcad/GhostSpell/main/scripts/install.sh | bash">Copy</button>
           </div>
-          <pre><code>curl -fsSL https://raw.githubusercontent.com/chrixbedardcad/GhostType/main/scripts/install.sh | bash</code></pre>
+          <pre><code>curl -fsSL https://raw.githubusercontent.com/chrixbedardcad/GhostSpell/main/scripts/install.sh | bash</code></pre>
         </article>
 
         <article class="command-card">
           <div class="command-head">
             <span class="platform-badge">Windows</span>
-            <button class="copy-btn" type="button" data-copy="powershell -c &quot;irm https://raw.githubusercontent.com/chrixbedardcad/GhostType/main/scripts/install.ps1 | iex&quot;">Copy</button>
+            <button class="copy-btn" type="button" data-copy="powershell -c &quot;irm https://raw.githubusercontent.com/chrixbedardcad/GhostSpell/main/scripts/install.ps1 | iex&quot;">Copy</button>
           </div>
-          <pre><code>powershell -c "irm https://raw.githubusercontent.com/chrixbedardcad/GhostType/main/scripts/install.ps1 | iex"</code></pre>
+          <pre><code>powershell -c "irm https://raw.githubusercontent.com/chrixbedardcad/GhostSpell/main/scripts/install.ps1 | iex"</code></pre>
         </article>
       </div>
     </section>
@@ -162,9 +223,20 @@
           <h3>Open source, built to help</h3>
           <p>
             GhostSpell is a simple open source project made with love. Anyone can inspect the code, validate that there is no hidden telemetry or sneaky behavior, and see exactly how it works.
-            <a class="inline-link" href="https://github.com/chrixbedardcad/GhostType" target="_blank" rel="noreferrer">View the GitHub project</a>.
+            <a class="inline-link" href="https://github.com/chrixbedardcad/GhostSpell" target="_blank" rel="noreferrer">View the GitHub project</a>.
           </p>
         </article>
+      </div>
+    </section>
+
+    <section class="focus-note container catch-note who-note">
+      <div class="catch-icon" aria-hidden="true">🧭</div>
+      <p class="catch-line"><strong>Who is this for?</strong></p>
+      <div class="who-grid">
+        <p><strong>Developers</strong> reviewing PRs or writing updates in English.</p>
+        <p><strong>Project managers</strong> sending Slack messages to international teams.</p>
+        <p><strong>Students</strong> writing essays or applications in a second language.</p>
+        <p><strong>AI users</strong> who want cleaner prompts and better answers.</p>
       </div>
     </section>
 
@@ -182,17 +254,17 @@
     <section id="providers" class="providers container">
       <div class="section-heading narrow">
         <p class="eyebrow">Works with your AI</p>
-        <h2 class="providers-heading">Choose the AI you already like.</h2>
+        <h2 class="providers-heading">Start local with Ollama. Add cloud providers if you want more.</h2>
       </div>
       <div class="provider-row logos">
+        <div class="provider-pill provider-pill-built-in"><span>👻</span><span>Ollama / local</span></div>
         <div class="provider-pill"><img src="/assets/providers/openai.svg" alt="OpenAI logo" /><span>OpenAI</span></div>
         <div class="provider-pill"><img src="/assets/providers/anthropic.svg" alt="Anthropic logo" /><span>Anthropic</span></div>
         <div class="provider-pill"><img src="/assets/providers/deepseek.svg" alt="DeepSeek logo" /><span>DeepSeek</span></div>
         <div class="provider-pill"><img src="/assets/providers/gemini.svg" alt="Gemini logo" /><span>Gemini</span></div>
-        <div class="provider-pill"><img class="logo-white" src="/assets/providers/ollama.svg" alt="Ollama logo" /><span>Ollama</span></div>
       </div>
       <p class="provider-copy">
-        GhostSpell gives you three clear ways to connect AI, so the setup can stay simple at first and still grow with you later.
+        GhostSpell should feel easy first. Start with local Ollama if you want a free private setup, then connect a cloud provider later if you want more power or a different model.
       </p>
       <div class="connection-grid">
         <article class="connection-card">
@@ -212,7 +284,15 @@
         </article>
       </div>
       <p class="provider-copy custom-note">
-        So GhostSpell always has a friendly default with Ollama, while still supporting login-based and API-based connections when you want something more advanced.
+        So GhostSpell can start simple and stay flexible: local Ollama when you want privacy and no API key, plus login-based and API-based connections when you want something more advanced.
+      </p>
+    </section>
+
+    <section class="focus-note container mobile-note">
+      <div class="catch-icon" aria-hidden="true">📱</div>
+      <p class="catch-line"><strong>Coming to mobile.</strong></p>
+      <p>
+        GhostSpell is planned for iOS and Android too. If you want updates, star the project on GitHub and watch the releases — that is the easiest way to follow progress for now.
       </p>
     </section>
   </main>
@@ -220,9 +300,10 @@
   <footer class="site-footer container">
     <p>GhostSpell — a quiet little ghost for cleaner writing.</p>
     <div class="footer-links">
-      <a href="https://github.com/chrixbedardcad/GhostType" target="_blank" rel="noreferrer">App GitHub</a>
-      <a href="https://github.com/chrixbedardcad/GhostType/releases/latest" target="_blank" rel="noreferrer">Latest release</a>
-      <a href="https://github.com/chrixbedardcad/GhostType" target="_blank" rel="noreferrer">GitHub</a>
+      <a href="https://github.com/chrixbedardcad/GhostSpell" target="_blank" rel="noreferrer">GitHub</a>
+      <a href="https://github.com/chrixbedardcad/GhostSpell/releases/latest" target="_blank" rel="noreferrer">Latest release</a>
+      <a href="https://github.com/chrixbedardcad/GhostSpell/discussions" target="_blank" rel="noreferrer">Community</a>
+      <a href="https://github.com/chrixbedardcad/GhostSpell/issues" target="_blank" rel="noreferrer">Report an issue</a>
     </div>
   </footer>
 
