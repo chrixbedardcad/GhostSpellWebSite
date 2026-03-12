@@ -273,6 +273,41 @@ code { font-family: "SFMono-Regular", ui-monospace, Menlo, Consolas, monospace; 
 .provider-pill-icon-ghost {
   transform: scale(1.08);
 }
+.ghost-ai-mark {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.ghost-ai-mark-pill {
+  width: 24px;
+  height: 24px;
+  flex: 0 0 24px;
+}
+.ghost-ai-mark-card {
+  width: 30px;
+  height: 30px;
+}
+.ghost-ai-badge {
+  position: absolute;
+  right: -5px;
+  bottom: -4px;
+  min-width: 18px;
+  height: 14px;
+  padding: 0 4px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #f5d0fe, #c4b5fd);
+  color: #2b1147;
+  font-size: 0.52rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  box-shadow: 0 4px 14px rgba(196,181,253,0.35);
+  border: 1px solid rgba(255,255,255,0.55);
+  z-index: 3;
+}
 .provider-pill-built-in { background: linear-gradient(135deg, rgba(139,92,246,0.22), rgba(236,107,255,0.14)); }
 .connection-grid {
   display: grid;
@@ -310,6 +345,13 @@ code { font-family: "SFMono-Regular", ui-monospace, Menlo, Consolas, monospace; 
   object-fit: contain;
   position: relative;
   z-index: 2;
+}
+.ghost-ai-mark-card .ghost-ai-badge {
+  right: -7px;
+  bottom: -5px;
+  min-width: 20px;
+  height: 15px;
+  font-size: 0.55rem;
 }
 .connection-icon-img-ghost {
   transform: scale(1.08);
