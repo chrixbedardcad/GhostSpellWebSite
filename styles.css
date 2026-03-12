@@ -274,10 +274,11 @@ code { font-family: "SFMono-Regular", ui-monospace, Menlo, Consolas, monospace; 
   transform: scale(1.08);
 }
 .provider-pill-icon-ghost-ai {
-  width: 24px;
-  height: 24px;
-  flex: 0 0 24px;
+  width: 26px;
+  height: 26px;
+  flex: 0 0 26px;
   object-fit: contain;
+  image-rendering: auto;
 }
 .provider-pill-built-in { background: linear-gradient(135deg, rgba(139,92,246,0.22), rgba(236,107,255,0.14)); }
 .connection-grid {
@@ -322,10 +323,11 @@ code { font-family: "SFMono-Regular", ui-monospace, Menlo, Consolas, monospace; 
   filter: drop-shadow(0 0 8px rgba(168,85,247,0.35));
 }
 .connection-icon-img-ghost-ai {
-  width: 34px;
-  height: 34px;
+  width: 38px;
+  height: 38px;
   object-fit: contain;
-  filter: drop-shadow(0 0 10px rgba(168,85,247,0.28));
+  image-rendering: auto;
+  filter: drop-shadow(0 0 10px rgba(168,85,247,0.22));
 }
 .connection-icon-ai {
   position: relative;
