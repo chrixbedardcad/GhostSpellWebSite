@@ -274,9 +274,9 @@ code { font-family: "SFMono-Regular", ui-monospace, Menlo, Consolas, monospace; 
   transform: scale(1.08);
 }
 .provider-pill-icon-ghost-ai {
-  width: 30px;
-  height: 30px;
-  flex: 0 0 30px;
+  width: 34px;
+  height: 34px;
+  flex: 0 0 34px;
   object-fit: contain;
   image-rendering: auto;
 }
